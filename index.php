@@ -1,3 +1,8 @@
+<?php
+
+require __DIR__ . '/functions.php';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +16,9 @@
 
 <body>
     <div class='quoteGenerator'>
+
+        <h2><?php echo getRandomQuote(); ?></h2>
+
     </div>
 </body>
 
